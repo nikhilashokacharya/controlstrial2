@@ -40,7 +40,7 @@ export default {};
         background-color: rgb(184, 209, 255);
     }
     .control-input:checked ~ .control-indicator {
-        /* background-color: rgb(145, 182, 250); */
+        background-color: rgb(107, 158, 253);
         background-image: url('../assets/pictures/option.png');
         background-size: 6px;
         background-position: center;

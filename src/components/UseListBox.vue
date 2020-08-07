@@ -61,10 +61,11 @@ export default {
   text-align: left;
   font-size: 14px;
   height: 16px;
+  border: 0.5px solid white;
 }
 .li:hover {
   margin: 1px;
-  border: 0.5px solid rgb(132, 132, 255);
+  border-color: rgb(132, 132, 255);
   border-radius: 2px;
   background-color: rgb(209, 223, 248);
 }
