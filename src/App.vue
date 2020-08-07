@@ -17,6 +17,8 @@
 <testSpinButton />
 <hr>
 <UseToggleButton />
+<hr>
+<UseScrollBar />
   </div>
 </template>
 
@@ -31,6 +33,7 @@ import UseTextBox from './components/UseTextBox.vue';
 import UseSpinButton from './components/UseSpinButton.vue';
 import testSpinButton from './components/testSpinButton.vue';
 import UseToggleButton from './components/UseToggleButton.vue';
+import UseScrollBar from './components/UseScrollBar.vue'
 
 
 @Component({
@@ -43,7 +46,8 @@ import UseToggleButton from './components/UseToggleButton.vue';
     UseTextBox,
     UseSpinButton,
     testSpinButton,
-    UseToggleButton
+    UseToggleButton,
+    UseScrollBar
   },
 })
 export default class App extends Vue {}

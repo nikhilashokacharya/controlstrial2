@@ -1,7 +1,7 @@
 <template>
   <div class="primary-content">
 	<div class="resp-textbox">
-		<input  class="text-box-design" type="text" placeholder="TextBox"/>
+		<input  class="text-box-design " type="text" placeholder="TextBox" />
 	</div>
 </div>
 </template>
@@ -19,4 +19,7 @@ export default {
     width: 150px;
     height: 20px;
 }
+/* .disabled{
+  opacity: 0.3;
+} */
 </style>

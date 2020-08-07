@@ -3,9 +3,9 @@
     <div class="list-outer">
       <ul class="ul">
         <li class="li" v-for="value in liContent" :key="value">
-          <div>
-          <i style="font-size:11px" class="fa">&#xf15b;</i>
-          <span class="span">{{value}}</span>
+          <div class="div">
+            <i style="font-size:11px" class="fa">&#xf15b;</i>
+            <span class="span">{{value}}</span>
           </div>
         </li>
       </ul>
@@ -72,10 +72,16 @@ export default {
 }
 .fa {
   margin-left: 4px;
+  margin-top: 3px;
 }
 .span {
   margin: 4px;
   margin-left: 7px;
+  margin-top: 0px;
   font-family: Arial, Helvetica, sans-serif;
+}
+.div {
+  display: grid;
+  grid-template-columns: 12px 1fr;
 }
 </style>
