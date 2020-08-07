@@ -15,6 +15,8 @@
 <UseListBox />
 <hr>
 <testSpinButton />
+<hr>
+<UseToggleButton />
   </div>
 </template>
 
@@ -26,8 +28,10 @@ import UseCommandButton from './components/UseCommandButton.vue';
 import UseListBox from './components/UseListBox.vue';
 import UseOptionButton from './components/UseOptionButton.vue';
 import UseTextBox from './components/UseTextBox.vue';
-import UseSpinButton from './components/UseSpinButton.vue'
-import testSpinButton from './components/testSpinButton.vue'
+import UseSpinButton from './components/UseSpinButton.vue';
+import testSpinButton from './components/testSpinButton.vue';
+import UseToggleButton from './components/UseToggleButton.vue';
+
 
 @Component({
   components: {
@@ -38,7 +42,8 @@ import testSpinButton from './components/testSpinButton.vue'
     UseOptionButton,
     UseTextBox,
     UseSpinButton,
-    testSpinButton
+    testSpinButton,
+    UseToggleButton
   },
 })
 export default class App extends Vue {}

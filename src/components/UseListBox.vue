@@ -62,6 +62,7 @@ export default {
   font-size: 14px;
   height: 16px;
   border: 0.5px solid white;
+  cursor: pointer;
 }
 .li:hover {
   margin: 1px;
