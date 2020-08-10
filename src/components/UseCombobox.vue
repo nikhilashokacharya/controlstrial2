@@ -2,11 +2,7 @@
   <div>
       <div class="box">
         <select class="box-select" @mouseover="hovered">
-            <option class="box-option" value="" @mouseover="hovered">Option 1</option>
-            <option class="box-option" value="">Option 2</option>
-            <option class="box-option" value="">Option 3</option>
-            <option class="box-option" value="">Option 4</option>
-            <option class="box-option" value="">Option 5</option>
+            <option class="option-tag" v-for="value in values" :key="value" value="" @mouseover="hovered">{{value}}</option>
         </select>
     </div>
   </div>
@@ -14,6 +10,17 @@
 
 <script>
 export default {
+data(){
+    return{
+        values:[
+            "Option 1",
+            "Option 2",
+            "Option 3",
+            "Option 4",
+            "Option 5"
+        ]
+    }
+},
 methods:{
     hovered(e){
         console.log(e);
@@ -48,7 +55,10 @@ methods:{
         -webkit-appearance: none;
         background:  red !important;
     }
-
+    .option-tag:hover{
+        color: white;
+        background-color: yellow;
+    }
     .box:before {
         content: '';
         position: absolute;

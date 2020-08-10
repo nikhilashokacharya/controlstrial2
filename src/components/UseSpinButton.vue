@@ -42,9 +42,9 @@ export default {};
 .triangle-up {
   width: 0;
   height: 0;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-bottom: 5px solid black;
+  border-left: auto solid transparent;
+  border-right: auto solid transparent;
+  border-bottom: auto solid black;
 }
 .triangle-down {
   width: 0;

@@ -10,7 +10,7 @@
 <hr>
 <UseCommandButton />
 <hr>
-<UseSpinButton />
+<testSpinButton2 />
 <hr>
 <UseListBox />
 <hr>
@@ -19,6 +19,11 @@
 <UseToggleButton />
 <hr>
 <UseScrollBar />
+<hr>
+<UseTabStrip />
+
+
+
   </div>
 </template>
 
@@ -33,7 +38,9 @@ import UseTextBox from './components/UseTextBox.vue';
 import UseSpinButton from './components/UseSpinButton.vue';
 import testSpinButton from './components/testSpinButton.vue';
 import UseToggleButton from './components/UseToggleButton.vue';
-import UseScrollBar from './components/UseScrollBar.vue'
+import UseScrollBar from './components/UseScrollBar.vue';
+import UseTabStrip from './components/UseTabStrip.vue';
+import testSpinButton2 from './components/testSpinButton2.vue'
 
 
 @Component({
@@ -44,22 +51,23 @@ import UseScrollBar from './components/UseScrollBar.vue'
     UseListBox,
     UseOptionButton,
     UseTextBox,
-    UseSpinButton,
+    testSpinButton2,
     testSpinButton,
     UseToggleButton,
-    UseScrollBar
+    UseScrollBar,
+    UseTabStrip
   },
 })
 export default class App extends Vue {}
 </script>
 
 <style>
-#app {
+/* #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
-}
+} */
 </style>
